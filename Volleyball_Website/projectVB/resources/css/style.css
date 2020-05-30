@@ -1,0 +1,236 @@
+
+/* ---------------------------- */
+/* SETUP */
+/* ---------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    background: #cad03d;
+    color: #221f1f;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+/* ---------------------------- */
+/* REUSABLE PARTS */
+/* ---------------------------- */
+.row{
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+section{
+    padding: 50px 0;
+    background: #daef6b;
+}
+
+/* ---------------------------- */
+/* HEADINGS*/
+/* ---------------------------- */
+
+h1,h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    
+}
+
+h1{
+    padding: 0 0 0 200px;
+    margin:0;
+    color: #add30e;
+    font-size: 200%;
+    font-weight: 400;
+    
+}
+
+h2{
+    font-size: 180%;
+    text-align: center;
+    
+    
+    
+}
+
+
+
+
+/* ---------------------------- */
+/* BUTTONS */
+/* ---------------------------- */
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    margin: 90px 20px 10px 20px;
+    padding: 10px 10px 10px 10px ;
+    border: 1px;
+    text-decoration: none;
+    border-radius: 200px;
+    color:#000;
+    transition: background-color 0.5s, border 0.5s;
+   
+ 
+}
+
+.btn-mens:link,
+.btn-mens:visited{
+    background: #3200ff;
+    border: 3px solid #abe50d;
+    margin-left: 430px;
+    padding: 10px 25px 10px 25px;
+}
+.btn-mens:hover,
+.btn-mens:active{
+    background: #bddb19;
+    border: 3px solid #3200ff;
+    
+}
+
+.btn-womens:link,
+.btn-womens:visited{
+    background: #bddb19;
+    border: 3px solid #3200ff;
+   
+}
+
+.btn-womens:hover,
+.btn-womens:active{
+    background: #3200ff;
+    border: 3px solid #abe50d;
+    
+}
+
+/* ---------------------------- */
+/* HEADER */
+/* ---------------------------- */
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.12)), url(img/header.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.welcome-text-box{
+    position: absolute;
+    margin:30px;
+    width : 1140px;
+    top:20%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+}
+
+/* ---------------------------- */
+/* NAVIGATION */
+/* ---------------------------- */
+
+.logo{
+    height: 100px;
+    width:auto;
+    background: #aeb49c;
+    border-radius: 50%;
+    float:left;
+    margin-top: 43px;
+   
+}
+
+.main-nav{
+    float:right;
+    margin-top:20px;
+    font-size:120%;
+    
+}
+
+.main-nav li{
+    display:inline-block; 
+    margin-right: 30px;
+   
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #000aff;
+    text-decoration: none;
+    border-radius: 30px;
+    padding:8px;
+   
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+     border-bottom: 3px solid #f2f26f;
+   
+}
+
+/* ---------------------------- */
+/* ICONS*/
+/* ---------------------------- */
+
+.icon-big{
+    font-size: 200%;
+    color: #0070f4;
+}
+
+/* ---------------------------- */
+/* Photos*/
+/* ---------------------------- */
+.section-photos{
+    padding:0;
+}
+
+.photos{
+    list-style: none;
+    width:100%;
+}
+
+.photos li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.figure-photos{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.figure-photos img{
+    width:100%;
+    height: auto;
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.7;
+
+  
+}
+
+.figure-photos img:hover{
+    
+    transform: scale(1.15);
+    opacity: 1.0;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
